@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fatty's Coffee Shop</title>
+    <link rel="icon" href="svg/coffee.svg" type="image/icon type">
+    <link rel="stylesheet" href="styleee.css" />
+    <script>
+      window.onscroll = function() { Scroll()};
+      function Scroll() {
+        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+          document.getElementById("id-navi").className = "navi-slidedown";
+        }
+        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+          document.getElementById("id-about-scroll").className = "scroll-about";
+        }
+      }
+
+      function menuButtonSnacks(){
+        document.getElementById("id-drinks").className = "menu-button-off";
+        document.getElementById("id-snacks").className = "menu-button-on";
+        document.getElementById("id-menu-snacks").className = "menu-snacks-on";
+        document.getElementById("id-menu-drinks").className = "menu-drinks-off";
+      }
+      function menuButtonDrinks(){
+        document.getElementById("id-drinks").className = "menu-button-on";
+        document.getElementById("id-snacks").className = "menu-button-off";
+        document.getElementById("id-menu-snacks").className = "menu-snacks-off";
+        document.getElementById("id-menu-drinks").className = "menu-drinks-on";
+      }
+
+
+
+    </script>
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="main">
+        <a class="logo" href="#"><img src="svg/coffee.svg" height="30px"></a>
+        <div class="fix" >
+          <a class="a1" href="#id-contact">CONTACT US</a>
+          <a class="a1" href="#id-menu">DISCOVER</a>
+          <a class="a1" href="#id-about">ABOUT US</a>
+          <a class="a1" href="#">HOME</a>
+        </div>
+      </section>
+      <div class="fix-background" id="id-navi"></div>
+      <div class="banner"> <div id="scroll-container">
+  <div id="scroll-text"> <h1>Welcome To My Website</h1> <div>
+</div>
+        <h1 class="banner-title">Fatty's Coffee Shop</h1>
+        <h3 class="banner-subtitle">"The Best Coffee in Town"</h3>
+      </div>
+      <div class="banner-bottom"><a href="#id-skills"><img src="svg/down-arrow.svg"></a></div>
+    </header>
+    <div class="content-divider"></div>
+
+    <section class="skills" id="id-skills" style="background-color:#;">
+      <!-- single skill -->
+      <article class="skill1">
+        <center><img src="svg/coffee-bag.svg" height="45px"></center><br>
+        <h3 class="skill-title">made in us</h3>
+        <p class="skill-text">
+          America's favorite coffee shop, Fatty's Coffee Shop is a local institution. Whether you're looking for a cup o' joe or a pure wile mocha, Fatty's Coffee Shop is the place to be.
+        </p>
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill2">
+        <center><img src="svg/spa.svg" height="45px"></center><br>
+        <h3 class="skill-title">relaxation</h3>
+        <p class="skill-text">
+         Fatty's Coffee Shop is a place with a beautiful atmosphere and smiles, where you can enjoy a cup of coffee, tea or soft drinks. It's perfect to relax and spend a pleasant moment.
+        </p>
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill1">
+        <center><img src="svg/ecology-and-environment.svg" height="45px"></center><br>
+        <h3 class="skill-title">energy</h3>
+        <p class="skill-text">
+          Fatty's Coffee Shop ENERGY is the perfect partner for any caffeine-infused adventure. Whether you're looking to set off early in the morning and get some exercise, or just need an energy boost around midday, Fatty's can provide the push you need.
+        </p>
+      </article>
+      <!--end single skill -->
+      <!-- single skill -->
+      <article class="skill2">
+        <center><img src="svg/cook.svg" height="45px"></center><br>
+        <h3 class="skill-title">family recipe</h3>
+        <p class="skill-text">
+          Coffee is a necessity for everyone and if you can find a best coffee shop in your neighborhood then you should try. Fatty’s Coffee Shop is famous for its amazing coffee, milkshakes and sandwiches.
+        </p>
+      </article>
+      <!--end single skill -->
+    </section>
+
+    
+
+    <!-- about-section -->
+<div class="about">
+  <br>
+    <br>
+    <section class="about-section-center-clearfix" style="display: inline; background-color: darkgrey;" id="id-about">
+      <!-- <div class="section-center clearfix"> -->
+      <!-- first column  -->
+      <article class="about-img-1">
+        <div class="about-picture-container" >
+          <video autoplay muted loop id="myVideo">
+            <source src="videos/movie.mp4" type="video/mp4">
+            </video>
+        </div>
+       <audio controls>
+           <source src="videos/fatima.mp3" />
+          </audio>
+      </article>
+      
+      <!-- second column -->
+      <article class="about-info-1">
+        <!-- section title -->
+        <div class="about-scroll" id="id-about-scroll">
+          <!-- <img src="preloader.gif" height="40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+          <h3 class="section-subtitle">ABOUT</h3>
+          <h2 class="section-title">Fatty's Coffee Shop</h2>
+        
+        <!--end section title -->
+        <p class="about-text">
+          Fatty's Coffee Shop is the home of the best coffee in town. Our specialty coffee shop offers great espresso drinks, frappes and lattes. 
+        </p>
+        <p class="about-text">
+         We also offer a large selection of teas and iced tea drinks at reasonable prices.
+        </p>
+        <a href="#id-contact" class="main-btn">learn more</a>
+        <div class="main-btn-back"></div>
+      </div>
+      </article>
+
+      <div style="clear: both;"></div>
+    </section>
+  
+    <br>
+    <br>
+  </div>
+<!--Menu-->
+<div style="background-color:#E0E5EC; z-index: -1;">
+<section class="menu-template" id="id-menu">
+  <h1 class="menu-title">Discover</h1><br>
+  <center><h3 class="menu-subtitle">O U R &nbsp;&nbsp;M E N U</h3></center>
+</section><br><br>
+
+
+<section class="menu-header-container">
+  <div class="menu-hr-container"><hr class="menu-hr"></div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="id-drinks" class="menu-button-on" onclick="menuButtonDrinks()"><img src="svg/hot-drinks (1).png" class="menu-circle-image"></button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="id-snacks" class="menu-button-off" onclick="menuButtonSnacks()"><img src="svg/snack.png" class="menu-circle-image"></button>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="menu-hr-container"><hr class="menu-hr"></div>
+</section>
+
+<!-- drinks menu -->
+<div class="menu-drinks-on" id="id-menu-drinks">
+
+<section class="menu" style="display: inline;">
+    <article class="menu-section">
+      <!-- first column -->
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/1.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">CAFFE AMERICANO</h3>
+              <p class="about-text">
+                Grab a cup and dive into your morning with Fatty's Coffee Shop CAFFE AMERICANO. It's made from the finest beans, so it packs a satisfying punch.
+              </p>
+              <h3 class="menu-text-title">Pph 250 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- second column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/14.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">HOT COFFEE</h3>
+              <p class="about-text">
+                Looking for a good, hot cup of coffee? Come by and chow down on our NEW Hot Coffee
+              </p>
+              <h3 class="menu-text-title">Php 165 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- third column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/2.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">CREAM LATTE</h3>
+              <p class="about-text">
+                Enjoy a delicious, creamy latte made just the way you like it.
+              </p>
+              <h3 class="menu-text-title">Php 267 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- fourth column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/12.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">ICED LATTE</h3>
+              <p class="about-text">
+                This creamy latte is made with rich, premium espresso and aromatic chocolate flavors. Drizzle a wee bit of espresso on top and watch it melt in your mouth!
+              </p>
+              <h3 class="menu-text-title">Php 243 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div style="clear: both;"></div>
+    <br>
+  </section>
+  <section class="menu" style="display: inline;">
+    <article class="menu-section">
+      <!-- first column -->
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/15.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">COFFEE SHOTS</h3>
+              <p class="about-text">
+                We've got the beverage you need to get your day started. Choose between a full Shot, Frap or Cappuccino Drink.
+              </p>
+              <h3 class="menu-text-title">Php 265 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- second column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/16.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">HERBAL</h3>
+              <p class="about-text">
+                With a focus on freshness and quality, Fatty's Coffee Shop HERBAL is dedicated to providing the community with high-quality coffee, tea, and herbal products.
+              </p>
+              <h3 class="menu-text-title">Php 276 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- third column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/17.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">HERBAL CHERRY</h3>
+              <p class="about-text">
+                Fatty's Coffee Shop HERBAL CHERRY is special blend of herbs that gives you a healthy boost.
+              </p>
+              <h3 class="menu-text-title">Php 274 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <!-- fourth column -->
+    <article class="menu-section">
+      <div class="menu-flip-card">
+        <div class="menu-flip-card-inner">
+          <div class="menu-flip-card-front">
+            <img src="Coffee/18.jpeg" alt="Avatar" class="menu-image">
+          </div>
+          <div class="menu-flip-card-back">
+            <div class="menu-text"><h3 class="menu-text-title">FILTERED COFFEE</h3>
+              <p class="about-text">
+               Fatty's Coffee Shop FILTERED COFFEE is a delicious way to start your day. A bold, rich and smooth taste, with every cup providing a pleasant jolt of caffeine
+              </p>
+              <h3 class="menu-text-title">Php 248 COST</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div style="clear: both;"></div>
+    <br>
+  </section>
+  <br>
+
+</div>
+<!-- drinks menu ending -->
+
+<!-- snacks menu -->
+<div class="menu-snacks-off" id="id-menu-snacks">
+
+  <section class="menu" style="display: inline;">
+      <article class="menu-section">
+        <!-- first column -->
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/29.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">PIZZA</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- second column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/21.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">FRIES</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- third column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/22.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">BURGER</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- fourth column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/24.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">SANDWICH</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <div style="clear: both;"></div>
+      <br>
+    </section>
+    <section class="menu" style="display: inline;">
+      <article class="menu-section">
+        <!-- first column -->
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/25.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">WTH IS THIS?</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- second column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/26.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">WAFFAL</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <!-- third column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/27.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">COOKIES</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- fourth column -->
+      <article class="menu-section">
+        <div class="menu-flip-card">
+          <div class="menu-flip-card-inner">
+            <div class="menu-flip-card-front">
+              <img src="Coffee/20.jpeg" alt="Avatar" class="menu-image">
+            </div>
+            <div class="menu-flip-card-back">
+              <div class="menu-text"><h3 class="menu-text-title">MIX BREAKFAST</h3>
+                <p class="about-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                  dolores.
+                </p>
+                <h3 class="menu-text-title">₹ COST</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+  
+      <div style="clear: both;"></div>
+      <br>
+    </section>
+    <br>
+  
+  </div>
+
+  <!-- snacks menu ending -->
+
+<!--Response-->
+  <div class="back">
+    <section class="about-section-center-clearfix" style="display: inline; ">
+
+      <article class="about-img">
+        
+        <h3 class="response-title">YOUR RESPONSE</h3>
+      <br>
+     <form target="_blank" action="https://formsubmit.co/robosafatimang@gmail.com" method="POST">
+        <label for="fname">Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Fatima Dullas Robosa"
+          required="Name"
+        /><label for="City">City</label>
+        <input type="text" id="city" name="cityname" placeholder="City Name" required="City Name" />
+
+        <label for="mail">E-Mail</label>
+        <input
+          type="email"
+          id="email"
+          name="mail"
+          placeholder="robosafatimang@gmail.com"
+          required="Email"
+        />
+
+        
+        <label for="subject">Rate Us:</label><br>
+        <fieldset class="rating">
+          <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+          <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+          <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+          <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+          <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+          <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+          <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+          <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+          <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+          <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+      </fieldset>
+<br><br>
+        <label for="subject">Your Reviews</label>
+        <textarea
+          id="feedback"
+             name="feedback"
+          placeholder="Your Thoughts"
+          style="height:120px"
+        ></textarea>
+        
+
+      <p align="right"><input type="submit" value="Submit"></p>
+      </form>
+      </article>
+      <!-- second column -->
+      <article class="about-info-slider">
+        <h3 class="response-title">TESTIMONIALS</h3>
+        <!--end section title -->
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <br>
+            <p class="p1">“ Here at Fatty's Coffee Shop, we are committed to providing our customers with the best possible service. We've made it a point to provide fast, friendly customer service, consistently high quality products and superior value that works hard to meet expectations. If there is anything you need, please don't hesitate to ask one of our friendly associates for help.. ”</p>
+            <br>
+            <img class="slider-img1" src="people/1.jpeg">
+            <h3 class="slider-name1">Charles White</h3>
+            <br><br>
+            <hr class="slides-hr">
+            <div class="social">
+              <img src="svg/instagram-red.svg" class="slider-social">
+              <img src="svg/facebook-red.svg" class="slider-social">
+            </div>
+            <br><br><br>
+            <p class="p2">“Fatty's Coffee Shop is a local favorite! We offer the freshest coffee by our roasters, and an amazing variety of teas, smoothies, and pastries. Our Wisconsin-made sodas will keep you cool on those summer days in Cortez. Our friendly staff is available to answer any questions you may have and make sure you enjoy yourself while visiting us today!. ”</p>
+            <br>
+            <img class="slider-img2" src="people/5.jpeg">
+            <h3 class="slider-name2">Seth Doyle</h3>
+            <br><br>
+            <hr class="slides-hr1">
+            <div class="social2">
+              <img src="svg/instagram-red.svg" class="slider-social">
+              <img src="svg/facebook-red.svg" class="slider-social">
+            </div>
+          </div>
+          
+          <div class="mySlides fade">
+            <br>
+            <p class="p1">“ Fatty's Coffee Shop is a family-owned, locally owned and operated coffee shop. We pride ourselves on offering the very best in locally roasted and brewed coffee.. ”</p>
+            <br>
+            <img class="slider-img1" src="people/2.jpeg">
+            <h3 class="slider-name1">Roberto Webb</h3>
+            <br><br>
+            <hr class="slides-hr">
+            <div class="social">
+              <img src="svg/instagram-red.svg" class="slider-social">
+              <img src="svg/facebook-red.svg" class="slider-social">
+            </div>
+            <br><br><br>
+            <p class="p2">“ Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. ”</p>
+            <br>
+            <img class="slider-img2" src="people/4.jpeg">
+            <h3 class="slider-name2">Midas Hofsatra</h3>
+            <br><br>
+            <hr class="slides-hr1">
+            <div class="social2">
+              <img src="svg/instagram-red.svg" class="slider-social">
+              <img src="svg/facebook-red.svg" class="slider-social">
+            </div>
+          </div>
+          
+          <div class="mySlides fade">
+            <br>
+            <p class="p1">“ We love our customers! We are very happy to know that you'll be happy with the product you purchased from us. Below, we've listed some of the most common comments from our customers, who love Fatty's Coffee Shop. Please feel free to share your experience with us through any of the links below!. ”</p>
+            <br>
+            <img class="slider-img1" src="people/3.jpeg">
+            <h3 class="slider-name1">Mellisa Howard</h3>
+            <br><br>
+            <hr class="slides-hr">
+            <div class="social">
+              <img src="svg/instagram-red.svg" class="slider-social">
+              <img src="svg/facebook-red.svg" class="slider-social">
+            </div>
+            <br><br><br>
+            <p class="p2">“ At Fatty’s Coffee Shop you will find some of the best coffee beans in the world, roasted by an expert roaster and made from the finest quality Ethiopian Yirgacheffe, Brazilian Fazenda Seca and French beans. ”</p>
+            <br>
+            <img class="slider-img2" src="people/7.jpeg">
+            <h3 class="slider-name2">DeMorris Byrd</h3>
+            <br><br>
+            <hr class="slides-hr1">
+            <div class="social2">
+              <img src="svg/instagram-red.svg" class="slider-social">
+              <img src="svg/facebook-red.svg" class="slider-social">
+            </div>
+          </div>
+          <br>
+          <br>
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          </div>
+          
+          
+          <script>
+          var slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script>
+
+      </article>
+      <div style="clear: both;"></div>
+    </section>
+  </div>
+  <!-- Contact -->
+  <section class="contact-template" id="id-contact">
+    <h1 class="contact-title">Contact</h1>
+    <br><center><h3 class="menu-subtitle">L O C A T E&nbsp;&nbsp;U S</h3></center>
+  </section>
+
+  <div class="contact">
+    <section class="about-section-center-clearfix" style="display: inline; ">
+
+      <article class="contact-map">
+      <!--left column-->
+      <br>
+      <div style="width: 100%"><iframe width="100%" height="624" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=624&amp;hl=en&amp;q=Coziest%20Coffee%20Shop%20in%20Metro%20Manila,%20Pasay%20City+(Fatty's%20Coffee%20Shop)&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe></div>
+      <br><br>
+      </article>
+      <!-- right column -->
+      <article class="contact-img">
+       <!-- second column -->
+        <br>
+        <!-- section title -->
+        <div class="opening-container">
+          <img src="Struct.jpg" alt="Snow" style="width:100%;">
+          <div class="opening-text ">
+            <h3>O P E N&nbsp;&nbsp;H O U R S</h3>
+              <p>
+                <strong>Monday: Closed</strong><br>
+                <strong>Tuesday to Friday</strong><br>
+                7:00 AM - 9:00 PM<br>
+                <strong>Saturday & Sunday</strong><br>
+                11:00 AM - 10:00 PM
+              </p>
+          </div>
+        </div>
+        
+
+        <!--end section title -->
+      </article>
+      <div style="clear: both;"></div>
+    </section>
+    <center>
+    <div class="contact-social">
+        <a class="contact-social-icons" href="https://www.facebook.com/fatimaangxx1929"><img src="svg/facebook.svg" weight="25" title="facebook" height="25"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="contact-social-icons" href="https://www.instagram.com/_fatimaaang/"><img src="svg/instagram.svg" weight="25" title="instagram" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!--<a class="contact-social-icons" href="#"><img src="svg/google.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        <!--<a class="contact-social-icons" href="#"><img src="svg/linkedin.svg" weight="25" title="gmail" height="25"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+       <!-- <a class="contact-social-icons" href=""><img src="svg/whatsapp.svg" weight="25" title="whatsapp" height="25"></a> -->
+    </div><br>
+    <p class="fontsettings">Copyright © 2022 | <a class="colorcover-link" href="https://www.facebook.com/fatimaangxx1929">Fatty's Coffee Shop</a></p><br><br>
+  </div></center>
+  </body>
+</html>
